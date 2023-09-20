@@ -1,5 +1,11 @@
 ## Getting Started
 
+Clone
+
+```bash
+git clone --recurse-submodules https://github.com/ngnaoh/social-master.git
+```
+
 First, run the development server:
 
 ```bash
