@@ -1,6 +1,6 @@
 ## Getting Started
 
-Clone
+### Clone
 
 ```bash
 git clone --recurse-submodules https://github.com/ngnaoh/social-master.git
@@ -8,13 +8,27 @@ git clone --recurse-submodules https://github.com/ngnaoh/social-master.git
 
 First, run the development server:
 
+### Database
+
 ```bash
 docker-compose up -d
 ```
 
-UI: [http://localhost:3000](http://localhost:3000)
+### UI:
 
-API: [http://localhost:8000](http://localhost:8000)
+```bash
+cd ./social-ui && yarn && yarn build && yarn start
+```
+
+URL: [http://localhost:3000](http://localhost:3000)
+
+### API:
+
+```bash
+cd ./social-ui && yarn && yarn start
+```
+
+URL: [http://localhost:8000](http://localhost:8000)
 
 ## Screenshot
 
