@@ -1,0 +1,6 @@
+[submodule "social-ui"]
+	path = social-ui
+	url = https://github.com/ngnaoh/social-ui.git
+[submodule "social-api"]
+	path = social-api
+	url = https://github.com/ngnaoh/social-api.git
